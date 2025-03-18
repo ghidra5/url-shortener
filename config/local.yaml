@@ -1,0 +1,16 @@
+env: "local"  # local, dev, prod
+# storage_path: "./storage/storage.db" # for sqlite
+http_server:
+  address: "localhost:8080"
+  timeout: 6s
+  idle_timeout: 60s
+  user: "test_user"
+  password: "test_password"
+
+database:
+  user: "test_db_user"
+  password: "test_db_password"
+  host: "localhost"
+  port: 5432
+  dbname: "url_shortener_db"
+  sslmode: "disable"
